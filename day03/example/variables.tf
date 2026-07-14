@@ -1,7 +1,7 @@
 variable "aws_region" {
   description = "AWS region to deploy into."
   type        = string
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }
 
 variable "vpc_cidr" {
@@ -17,7 +17,7 @@ variable "public_subnet_cidr" {
 }
 
 variable "instance_type" {
-  description = "EC2 instance type. t2.micro is AWS Free Tier in most regions (incl. us-east-1)."
+  description = "EC2 instance type. t2.micro"
   type        = string
   default     = "t2.micro"
 }
